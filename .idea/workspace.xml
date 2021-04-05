@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="364cd82f-4fda-455e-90ac-7453c33b4682" name="Default Changelist" comment="" />
+    <list default="true" id="364cd82f-4fda-455e-90ac-7453c33b4682" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stephen/persionnal/reference/PhantomReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c4e28e7-1d3d-4790-a3b4-73786c63e995.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c4e28e7-1d3d-4790-a3b4-73786c63e995.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7e3923d-8650-4b52-88b0-101c7c9e2789.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7e3923d-8650-4b52-88b0-101c7c9e2789.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stephen/persionnal/jvm/HelloGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stephen/persionnal/jvm/HelloGC.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +73,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\persional\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -91,13 +106,18 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/stephen/persionnal/hashmap" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -118,13 +138,14 @@
       <recent name="D:\project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyThreadPoolDemo">
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.thread.CallableDemo" />
+  <component name="RunManager" selected="Application.HelloGC">
+    <configuration name="HelloGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.jvm.HelloGC" />
       <module name="project" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintCommandLineFlags" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stephen.persionnal.thread.*" />
+          <option name="PATTERN" value="com.stephen.persionnal.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exam5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.test.Exam5" />
+    <configuration name="PhantomReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.reference.PhantomReferenceDemo" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stephen.persionnal.test.*" />
+          <option name="PATTERN" value="com.stephen.persionnal.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.thread.MyThreadPoolDemo" />
+    <configuration name="ReferenceQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.reference.ReferenceQueueDemo" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stephen.persionnal.thread.*" />
+          <option name="PATTERN" value="com.stephen.persionnal.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProConsumerQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.concurrent.queue.ProConsumerQueueDemo" />
+    <configuration name="WeakHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.reference.WeakHashMapDemo" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stephen.persionnal.concurrent.queue.*" />
+          <option name="PATTERN" value="com.stephen.persionnal.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncAndLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.concurrent.lock.SyncAndLockDemo" />
+    <configuration name="WeakReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stephen.persionnal.reference.WeakReferenceDemo" />
       <module name="project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stephen.persionnal.concurrent.lock.*" />
+          <option name="PATTERN" value="com.stephen.persionnal.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,13 +212,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.WeakReferenceDemo" />
+      <item itemvalue="Application.WeakHashMapDemo" />
+      <item itemvalue="Application.ReferenceQueueDemo" />
+      <item itemvalue="Application.PhantomReferenceDemo" />
+      <item itemvalue="Application.HelloGC" />
+      <item itemvalue="Spring Boot.PersionnalApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyThreadPoolDemo" />
-        <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.ProConsumerQueueDemo" />
-        <item itemvalue="Application.SyncAndLockDemo" />
-        <item itemvalue="Application.Exam5" />
+        <item itemvalue="Application.HelloGC" />
+        <item itemvalue="Application.PhantomReferenceDemo" />
+        <item itemvalue="Application.ReferenceQueueDemo" />
+        <item itemvalue="Application.WeakHashMapDemo" />
+        <item itemvalue="Application.WeakReferenceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +274,11 @@
       <workItem from="1610455219747" duration="615000" />
       <workItem from="1610458571854" duration="309000" />
       <workItem from="1610785013632" duration="4843000" />
-      <workItem from="1611241930578" duration="14244000" />
+      <workItem from="1611545617158" duration="9205000" />
+      <workItem from="1611627276706" duration="9205000" />
+      <workItem from="1611714951677" duration="6192000" />
+      <workItem from="1611799674211" duration="9805000" />
+      <workItem from="1611885910005" duration="2845000" />
     </task>
     <servers />
   </component>
@@ -261,18 +294,32 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Live_Templates/0.0.1536.824@0.0.1536.824" timestamp="1608033984544" />
-    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609858184604">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="205" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611907806326">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="205" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1611907806326" />
     <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609858184604" />
     <state x="477" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608477607983">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1608477607983" />
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1611305626282">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="600" y="82" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1611631126865">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611305626282" />
+    <state x="600" y="82" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1611631126865" />
+    <state x="510" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1611558988425">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="510" y="93" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1611558988425" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1610288288221" />
+    <state x="549" y="174" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611629737418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="549" y="174" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1611629737418" />
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1611552849234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1611552849234" />
     <state x="553" y="279" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609162969593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -281,30 +328,39 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="646" y="190" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1610290121553" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1611653744921">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1611653744921" />
     <state width="412" height="466" key="DebuggerActiveHint" timestamp="1610275671011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="412" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1610275671011" />
-    <state x="572" y="170" key="FileChooserDialogImpl" timestamp="1609084562767">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="509" y="150" key="FileChooserDialogImpl" timestamp="1611630673032">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="509" y="150" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611630673032" />
     <state x="572" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609084562767" />
-    <state width="1092" height="210" key="GridCell.Tab.0.bottom" timestamp="1611321867954">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom" timestamp="1611908092543">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1092" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611321867954" />
-    <state width="1092" height="210" key="GridCell.Tab.0.center" timestamp="1611321867954">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611908092543" />
+    <state width="1095" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610888091697" />
+    <state width="1323" height="206" key="GridCell.Tab.0.center" timestamp="1611908092543">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1092" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611321867954" />
-    <state width="1092" height="210" key="GridCell.Tab.0.left" timestamp="1611321867954">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611908092543" />
+    <state width="1095" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610888091697" />
+    <state width="1323" height="206" key="GridCell.Tab.0.left" timestamp="1611908092542">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1092" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611321867954" />
-    <state width="1092" height="210" key="GridCell.Tab.0.right" timestamp="1611321867954">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611908092542" />
+    <state width="1095" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610888091697" />
+    <state width="1323" height="206" key="GridCell.Tab.0.right" timestamp="1611908092543">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1092" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611321867954" />
+    <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611908092543" />
+    <state width="1095" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610888091697" />
     <state width="746" height="260" key="GridCell.Tab.1.bottom" timestamp="1610290351052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -325,14 +381,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="70" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610029431510" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1611302884443">
+    <state x="272" y="0" key="SettingsEditor" timestamp="1608822107259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611302884443" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1611241927400">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608822107259" />
+    <state x="410" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1611715008947">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1611241927400" />
+    <state x="410" y="212" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1611715008947" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610367194797" />
+    <state x="413" y="123" key="extract.method.dialog" timestamp="1611815145646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="123" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1611815145646" />
     <state x="390" y="1" width="755" height="822" key="find.popup" timestamp="1610029149876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -341,14 +402,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1610865682909" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1608564393468">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="378" y="167" key="run.anything.popup" timestamp="1611821567420">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="378" y="167" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1611821567420" />
     <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1608564393468" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611321729384">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610029185079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611321729384" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610029185079" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -360,17 +422,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stephen/persionnal/test/Exam5.java</url>
-          <line>21</line>
+          <line>19</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stephen/persionnal/test/Exam5.java</url>
-          <line>9</line>
+          <line>7</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/stephen/persionnal/test/Exam5.java</url>
-          <line>15</line>
+          <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
